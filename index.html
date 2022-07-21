@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>mInstagram</title>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fredoka+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <header>
+                <nav class="navbar navbar-light bg-dark fixed-top">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#" style="color: white; font-family: 'Dancing Script', cursive;"><i class="bi bi-sun me-1" style="color:white;"></i>mInstagram</a>
+                      <div class="d-flex">
+                        <button style="font-family: 'Dancing Script', cursive;" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#newpost" type="button" >
+                            Create a new post
+                        </button>
+                        
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-gear-fill"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="dropdownMenuButton2">
+                              <li><a class="dropdown-item active" href="#">Subir</a></li>
+                              <li><a class="dropdown-item" href="#">Descargar</a></li>
+                              <li><a class="dropdown-item" href="#">Stalkear al/la que te gusta</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Tonto el que lo lea</a></li>
+                            </ul>
+                          </div>
+                      </div>
+                    </div>
+                  </nav>
+            </header>
+        </div>
+        <div class="container-fluid pt-5 mt-3">
+            <div class="row justify-content-center">
+                <div class="col-2">
+                    <ul class="nav nav-pills mb-3">
+                        <li class="nav-item">
+                            <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#pills-home" type="button"><i class="bi bi-images"style="color: rgb(48, 48, 48);"></i></button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button"><i class="bi bi-file-image" style="color: rgb(48, 48, 48);"></i></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- modal para el boton card para las fotos -->
+            <div class="tab-content">
+                <div class="tab-pane active" id="pills-home">
+                    <div class="container-fluid ">
+                        <div class="row mb-4">
+                            <div class="col-4 ">
+                                <img class="img-fluid rounded" src="https://worstadultever.files.wordpress.com/2017/09/tumblr_npeuxrczbj1qm6oc3o1_500.gif" alt="cheshire">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded " src="https://i.pinimg.com/originals/95/d0/e3/95d0e35215977b5723780c9019be9268.gif" alt="esqueletosbailongos">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded " src="https://i.giphy.com/media/VUdLlDsKlQi5i/giphy.gif" alt="dejame que piense">
+                            </div>
+                        </div>
+                        <div class="row mb-2 mb-4">
+                            <div class="col-4">
+                                <img class="img-fluid rounded" src="https://www.thecherryblossomgirl.com/wp-content/uploads/2013/10/Betlegeuse-01.gif" alt="jackiejack">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded " src="http://4.bp.blogspot.com/-AczzLyAYGts/VLh2cFJh2tI/AAAAAAAAumo/_EkdTWTLeKk/s1600/tumblr_mv23cmeBSB1rfxftro1_r1_500.gif" alt="esqueletosbailongos">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded " src="./dp1 (1).gif" alt="dejame que piense">
+                            </div>
+                        </div>
+                        <div class="row mb-2 mb-4">
+                            <div class="col-4">
+                                <img class="img-fluid rounded" src="./beetlejuice.gif" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded " src="./dogo.gif" alt="dogo">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded " src="./daledale.gif" alt="">
+                            </div>
+                        </div>
+                        <div class="row mb-2 mb-4">
+                            <div class="col-4">
+                                <img class="img-fluid rounded" src="./yupi.gif" alt="yupi">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded " src="./sombrereri.gif" alt="sombrero">
+                            </div>
+                            <div class="col-4">
+                                <img class="img-fluid rounded " src="./gemelos.gif" alt="Gemelakos">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="pills-profile">
+                    <div class="div2">
+                        <h1 id="wellcome"><i>Wellcome to the fake instagram</i></h1>
+                        <hr>
+                    </div>
+                    <div class="div3">
+                        <div class="imgcontainter">
+                            <div class="username">
+                                <h3>FulanoyMengano22:</h3>
+                            </div>
+                            <div>
+                                <img id="img1" src="https://4.bp.blogspot.com/-nR-SAn8bSZQ/W0iSZEUYW_I/AAAAAAABO1Y/puQihk8ZOxsHYGdU8Jvj3r4susMU_lRYQCEwYBhgL/s1600/fulanito%2By%2Bmenganito.gif" alt="FulanitoyMenganito">
+                            </div>
+                            <div class="description">
+                                <p>Aquí con mi compare Mengano planeando qué merendar</p>
+                            </div>
+                        </div>
+                        <div class="imgcontainter">
+                            <div class="username">
+                                <h3>Gatolocoperomajo:</h3>
+                            </div>
+                            <div >
+                                <img id="img2" src="https://i.giphy.com/media/4uGeJzUSCKKeQ/giphy.webp" alt="Gatohuyendoporquelohanpillado">
+                            </div>
+                            <div class="description">
+                                <p>Desaparesiendo que no esparsiendo. #mad #aliciateveo #stalk</p>
+                            </div>
+                        </div>
+                        <div class="imgcontainter">
+                            <div class="username">
+                                <h3>AliciaLaReinona:</h3>
+                            </div>
+                            <div>
+                                <img id="img3" src="https://i.gifer.com/3rsH.gif" alt="AliciaMerendando">
+                            </div>
+                            <div class="description">
+                                <p>Pues les he robao la merienda a Fulanito y Menganito #querico</p>
+                            </div>
+                        </div>
+                        <div class="imgcontainter">
+                            <div class="username">
+                                <h3>AliciaLaReinona:</h3>
+                            </div>
+                            <div>
+                                <img id="img4" src="https://i.gifer.com/3Msp.gif" alt="AliciaCayendo">
+                            </div>
+                            <div class="description">
+                                <p>Los cabrones me han tirao por un bujero por quitarles la comida #traición</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="newpost">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 style="font-family: 'Dancing Script', cursive;">Subeme algo bb</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row mx-3">
+                            <input class="col-12 p-3" type="text" placeholder="¿Algo que decir?">
+                        </div>
+                        <div class="row ">
+                            <div class="col-2">
+                                <button class="btn btn-primary ms-3 mt-2" style="font-family: 'Dancing Script', cursive;" type="button" href="#">Publicar</button>
+                            </div>
+                            <div class="col-10">
+                                <button class="btn btn-light rounded float-end me-3 mt-2 mb-3" type="button" style=""><i class="bi bi-geo-alt-fill"></i></button>
+                                <button class="btn btn-light rounded float-end me-3 mt-2" type="button" style=""><i class="bi bi-camera-fill"></i></button>
+                            </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" style="font-family: 'Dancing Script', cursive;">Súbeme prrro</button>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
